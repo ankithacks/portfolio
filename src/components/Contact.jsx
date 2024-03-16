@@ -43,12 +43,12 @@ const Contact = () => {
           <span className="text-4xl text-black">{"<"}</span>Contact
           <span className="text-4xl text-black">{"/>"}</span>
         </h1>
-        <div className="flex justify-evenly items-center w-full py-6">
+        <div className="flex flex-col lg:flex-row justify-center gap-8 lg:justify-evenly items-center w-full py-6">
         <div className="flex flex-col justify-center items-center gap-5">
-        <h1 className="text-6xl font-semibold">Let&#39;s <span className="text-blue">Connect</span></h1>
-          <img src="/assets/contact.gif" className="h-80 rounded-2xl shadow-xl transition ease-in-out delay-150 hover:scale-110 duration-300"/>
+        <h1 className="text-3xl lg:text-6xl font-semibold">Let&#39;s <span className="text-blue">Connect</span></h1>
+          <img src="/assets/contact.gif" className="h-44 lg:h-80 rounded-2xl shadow-xl transition ease-in-out delay-150 hover:scale-110 duration-300"/>
         </div>
-        <div className="bg-blue py-6 px-6 w-[27rem] rounded-2xl shadow-xl">
+        <div className="bg-blue py-6 px-6 w-[20rem] lg:w-[27rem] rounded-2xl shadow-xl">
         <form onSubmit={handleSubmit}  className="flex flex-col justify-start items-start gap-5">
                 <input
                   type="text"
