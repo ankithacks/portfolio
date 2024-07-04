@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-center gap-3 mt-4">
             <h1 className="text-2xl lg:text-5xl font-bold text-navy">Hi, I&#39;m <span className="text-off-white">{"<"}</span>Ankit Chakraborty<span className="text-off-white">{"/>"}</span></h1>
             <p className="text-xl lg:text-4xl font-semibold">I&#39;m Into <span className='text-navy'>{text}</span><Cursor cursorColor='blue' /></p>
-            <Link to='/assets/resume.pdf' target="_blank">
+            <Link to='/assets/resume_july.pdf' target="_blank">
                 <button className="text-lg lg:text-2xl py-2 px-4 lg:px-6 bg-navy rounded-xl lg:rounded-2xl text-orange font-semibold hover:text-off-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Resume</button>
             </Link>
         </div>
